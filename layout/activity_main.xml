@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha=".9"
+    android:background="@drawable/marcianito"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/titulo_marginBottom"
+        android:layout_marginEnd="@dimen/boton_marginend"
+        android:layout_marginLeft="@dimen/titulo_marginleft"
+        android:layout_marginRight="@dimen/tutulo_marginright"
+        android:layout_marginStart="@dimen/titulo_marginstart"
+        android:layout_marginTop="@dimen/titulo_marginTop"
+        android:text="@string/app_mensaje"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="128dp"
+        android:layout_height="@dimen/boton_height"
+        android:layout_marginBottom="216dp"
+        android:layout_marginEnd="@dimen/boton_marginend"
+        android:layout_marginLeft="@dimen/boton_marginleft"
+        android:layout_marginRight="@dimen/boton_marginright"
+        android:layout_marginStart="@dimen/boton_marginstart"
+        android:alpha=".9"
+        android:background="@drawable/button_border"
+        android:text="@string/app_boton1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/layout_constraintGuide_end" />
+
+</android.support.constraint.ConstraintLayout>

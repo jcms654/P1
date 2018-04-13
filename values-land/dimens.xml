@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="boton_marginbottom">48dp</dimen>
+    <dimen name="boton_width">92dp</dimen>
+    <dimen name="boton_height">0dp</dimen>
+    <dimen name="boton_marginend">8dp</dimen>
+    <dimen name="boton_marginleft">8dp</dimen>
+    <dimen name="boton_marginright">8dp</dimen>
+    <dimen name="boton_marginstart">8dp</dimen>
+    <dimen name="titulo_marginend">8dp</dimen>
+    <dimen name="titulo_marginleft">8dp</dimen>
+    <dimen name="tutulo_marginright">8dp</dimen>
+    <dimen name="titulo_marginstart">8dp</dimen>
+    <dimen name="titulo_marginBottom">54dp</dimen>
+    <dimen name="titulo_marginTop">13dp</dimen>
+    <dimen name="layout_constraintGuide_end">340dp</dimen>
+</resources>
